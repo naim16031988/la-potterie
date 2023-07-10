@@ -1,0 +1,178 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="main.js"></script>
+    <title>POTTRIE KABYLE</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__top">
+            <span class="material-symbols-outlined search">
+                search
+            </span>
+            <h2 class="main__title">Pottrie Kabyle</h2>
+            <div class="card__and__connect">
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+                <span class="material-symbols-outlined"> 
+                    account_circle
+                </span>
+            </div> 
+        </div>
+        <hr class="nav__line">
+        <div class="nav__bottom">
+            <ul>
+                <li>Chandelieres</li>
+                <li>Jarres</li>
+                <li>Gargoulettes</li>
+                <li>Boites a Bijoux</li>
+                <li>Pots </li>
+                <li>Vaisselles</li>
+                <li>Vases</li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="image__banner">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Pitt_Rivers_Museum%2C_kabyle_pottery_02.jpg/1200px-Pitt_Rivers_Museum%2C_kabyle_pottery_02.jpg" alt="photo de pottrie kabyle">
+    </div>
+    <section class="filter">
+        <div class="filter__right">
+            <select name="Categorie" id="categoryFilter">
+                <option value="cat0">Categorie</option>
+                <option value="1">Accessoir</option>
+                <option value="2">Vaisselle</option>
+                <option value="3">Vase</option>
+            </select>
+            <button class="button__avalible" name="disponibilite" id="avliblevalible">
+             Disponibilite
+            </button>
+            <select name="Prix" id="trierParPrice">
+                <option value="0">Prix</option>
+                <option value="1">++++</option>
+                <option value="2">----</option>
+            </select>
+            <select name="Region" id="">
+                <option value="Tizi">Region</option>
+                <option value="Tizi">Tizi</option>
+                <option value="Bejaia">Bedjaia</option>
+            </select>
+        </div>
+       
+    </section>
+     <section class="all__product"></section>
+     <!-- 
+    <section class="Product">  
+        <div class="all__product">
+            <div class="product1">
+                <img src="images/boite.png" alt="">
+                <h3 class="product__title">Boite a Bijoux</h3>
+                <p class="product__price">$275</p>
+            </div>
+            <div class="product1">
+                <img src="images/chandaliere.png" alt="">
+                <h3 class="product__title">Chandelieres</h3>
+                <p class="product__price">$75</p>
+            </div>
+            <div class="product1">
+                <img src="images/Huilier.png" alt="">
+                <h3 class="product__title">Huilier</h3>
+                <p class="product__price">$49</p>
+            </div>
+            <div class="product1">
+                <img src="images/Jarre.png" alt="">
+                <h3 class="product__title">Jarre</h3>
+                <p class="product__price">$78</p>
+            </div>
+            <div class="product1">
+                <img src="images/jarre2.png" alt="">
+                <h3 class="product__title">jarre</h3>
+                <p class="product__price">$49</p>
+            </div>
+            <div class="product1">
+                <img src="images/Jarre3.png" alt="">
+                <h3 class="product__title">Jarre</h3>
+                <p class="product__price">$78</p>
+            </div>
+            <div class="product1">
+                <img src="images/jarre4.png" alt="">
+                <h3 class="product__title">Jarre</h3>
+                <p class="product__price">$78</p>
+            </div>
+            <div class="product1">
+                <img src="images/object6.png" alt="">
+                <h3 class="product__title">Jarre</h3>
+                <p class="product__price">$98</p>
+            </div>
+        </div>
+    </section>-->
+    <div class="button__view-all">
+        <button class="button">Voir Tout Les Produits
+        </button>
+    </div>
+    <footer>
+        <div class="footer__top">
+            <div class="footer__left">
+                <ul class="menu">Menu
+                    <li>nouveau</li>
+                    <li>Meilleurs Vente</li>
+                    <li>Vue</li>
+                    <li>Popular cette Semaine</li>
+                    <li>Tous les produits</li>
+                </ul>
+                <ul class="categories">Categories
+                    <li>Chandeliere</li>
+                    <li>Jarres</li>
+                    <li>Gargoulette</li>
+                    <li>Boite a Bijoux</li>
+                    <li>pots</li>
+                    <li>vaisselles</li>
+                </ul>
+                <ul class="our__company">Our Company
+                    <li>About us </li>
+                    <li>Contact us</li>
+                    <li>Privacy</li>
+                    <li>Returns policy</li>
+                </ul>
+            </div>
+        
+            <div class="footer__right">
+                <p>Joing our mailing list</p>
+                <form>
+                <input type="text" placeholder="you@email.com">
+                <button type="submit">Sign up</button>
+            </form>
+            </div>
+        </div>
+        <hr class="bottom__line">
+        <div class="footer__bottom">
+            <p class="copyright">Copyright2023 KabylePottery</p>
+            <div class="social__media">
+                <span class="material-symbols-outlined">
+                    sentiment_dissatisfied
+                </span>
+                <span class="material-symbols-outlined">
+                    mood
+                </span>
+                <span class="material-symbols-outlined">
+                    sentiment_extremely_dissatisfied
+                </span>
+                <span class="material-symbols-outlined">
+                    sentiment_sad
+                </span>
+                <span class="material-symbols-outlined">
+                    weather_hail
+                </span>
+                <span class="material-symbols-outlined">
+                    globe_uk
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

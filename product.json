@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "boite a bijoux",
+      "price": 75,
+      "categorie":"accessoir",
+      "image": "images/boite.png",
+      "avalible": true
+    },
+    {
+      "id": 2,
+      "name": "chandaliere",
+      "price": 29,
+      "categorie":"accessoir",
+      "image": "images/chandaliere.png",
+      "avalible": true
+    },
+    {
+      "id": 3,
+      "name": "huilier",
+      "price": 39,
+      "categorie":"vaisselle",
+      "image": "images/huilier.png",
+      "avalible": false
+    },
+    {
+      "id": 4,
+      "name": "jarre",
+      "price": 49,
+      "categorie":"vase",
+      "image": "images/jarre.png",
+      "avalible": true
+    },
+    {
+      "id": 5,
+      "name": "jarre",
+      "price": 59,
+      "categorie":"vase",
+      "image": "images/jarre2.png",
+      "avalible": true
+    },
+    {
+      "id": 6,
+      "name": "jarre",
+      "price": 49,
+      "categorie":"vaisselle",
+      "image": "images/jarre3.png",
+      "avalible": true
+    },
+    {
+      "id": 7,
+      "name": "jarre",
+      "price": 105,
+      "categorie":"vase",
+      "image": "images/jarre4.png",
+      "avalible": true
+    },
+    {
+      "id": 8,
+      "name": "jarre",
+      "price": 105,
+      "categorie":"vase",
+      "image": "images/object6.png",
+      "avalible": true
+    },
+    {
+      "id": 9,
+      "name": "couscoussiere",
+      "price": 75,
+      "categorie":"vaisselle",
+      "image": "images/couscousiere.jpg",
+      "avalible": false
+    },
+    {
+      "id": 10,
+      "name": "Chadalier a 3",
+      "price": 25,
+      "categorie":"accessoir",
+      "image": "images/chandalier.jpg",
+      "avalible": true
+    },
+    {
+      "id": 11,
+      "name": "Chadalier a 3",
+      "price": 29,
+      "categorie":"accessoir",
+      "image": "images/chandalier2.jpg",
+      "avalible": true
+    },
+    {
+      "id": 12,
+      "name": "jarre decoree",
+      "price": 59,
+      "categorie":"vase",
+      "image": "images/jarre6.jpg",
+      "avalible": true
+    },
+    {
+      "id": 13,
+      "name": "huilier",
+      "price": 45,
+      "categorie":"vaisselle",
+      "image": "images/huilier2.jpg",
+      "avalible": false
+    },
+    {
+      "id": 14,
+      "name": "jarre",
+      "price": 79,
+      "categorie":"vaisselle",
+      "image": "images/jarre.jpg",
+      "avalible": true
+    },
+    {
+      "id": 15,
+      "name": "jarre traditionelles",
+      "price": 120,
+      "categorie":"vase",
+      "image": "images/jarre7.png",
+      "avalible": true
+    }
+  ]
+  
